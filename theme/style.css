@@ -14,7 +14,7 @@
 @import url("../twentythirteen/style.css");
 @import url(http://fonts.googleapis.com/css?family=Sofia);
 
-body {
+div.other-page {
 	color: #EEE; /* #4D4D4D; */
 	background: #b7ad70; /* Old browsers */
 	background: -moz-linear-gradient(top,  #b7ad70 0%, #c9c190 60%, #d5cea6 100%); /* FF3.6+ */
@@ -27,15 +27,15 @@ body {
   background-image: url('images/wood.png');
 }
 
-.home {
-	background-image: url('images/kitchen_new_a.jpg');
-  background-repeat: no-repeat;
+div.home-page {
+	background: url('images/kitchen_new_a2.jpg') top center repeat-x;
   background-size: 100%;  
   background-position: 0px -60px;
+  min-height: 768px;
 }
 
 div.site {
-  background: none;
+  background-color: transparent;
 }
 
 header.site-header .home-link {
@@ -54,12 +54,15 @@ header.site-header .search-form {
 
 .nav-menu li a {
 	color: #FFC000;
-	font-size: 28px;
+	font-size: 26px;
+	border-bottom: solid 3px;
+	padding: 5px;
+	margin: 10px;
 }
 
-.nav-menu li a:hover, .aux-menu a:hover {
-	color: #FFC;
-	background-color: transparent;
+.nav-menu li:hover > a, .nav-menu li a:hover {
+	color: #FFC;	
+  background: transparent;
 }
 
 .nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
@@ -86,7 +89,7 @@ h2.site-description {
 
 .tagline {
 	position: absolute;
-	top: 62%;
+	top: 66%;
 	right: 25%;
 	font-size: 22px;
 	color: #FFC;
@@ -104,22 +107,42 @@ h2.site-description {
 	margin: 0;
 }
 
+.site-main {
+  min-height: 500px;	
+}
+
 .entry-title {
-  font-size: 32px;	
+  font-size: 32px;
+  margin-left: -1px;
+  font-weight: bold;
+}
+
+.entry-header {
+	margin-bottom: 20px;
 }
 
 .entry-content {
   word-spacing: 2px;	
 }
 
+.entry-content a {
+	color: #ffc000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.entry-content a:hover {
+	color: #ffc;
+}
+
 .entry-content h2 {
   font-size: 28px;
 }
 
-
-footer.site-footer  {
-  background: none;	
+.entry-content h5 {
+	color: #FFC;
 }
+
  
 /* .site-title {
   font-weight: normal;
@@ -140,13 +163,50 @@ footer.site-footer  {
 }
 
 .aux-menu a {
-	font-size: 24px;
+	font-size: 22px;
 	color: #FFC000;
 	text-decoration: none;	
-	padding: 15px;
+	margin: 15px;
+}
+
+.aux-menu a:hover {
+  border-bottom: solid 2px;
+  color: #FFC;
+}
+
+footer.site-footer  {  
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 /* Don't display wordpress tagline */
 .site-info {
   display: none;
+}
+
+.copyright {
+	color: #B38600;
+	padding: 15px;
+}
+
+.visual-form-builder fieldset {
+	background-color: transparent;
+	border: none;
+	margin: 0px;
+}
+
+.visual-form-builder .vfb-legend {
+  border: none;
+  margin: 0px 14px;	
+}
+
+.visual-form-builder .vfb-legend h3 {
+	font-size: 18px;
+}
+
+input[type="submit"] {
+	border-radius: 12px;
+	padding: 9px 18px;
 }
