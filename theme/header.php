@@ -19,6 +19,7 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
   <![endif]-->
   <?php wp_head(); ?>
+  <link rel="stylesheet" media="(max-width: 960px)" href="<?php echo get_stylesheet_directory_uri(); ?>/tablet.css" />  
 </head>
 
 <body <?php body_class(); ?>>
@@ -30,7 +31,7 @@
       </a>
 
       <div class="aux-menu">
-        <a href="faq">FAQ</a><a href="orders">To Order</a>
+        <a href="testimonials">Testimonials</a><a href="faq">FAQ</a><a href="orders">To Order</a>
       </div>
 
       <div id="navbar" class="navbar">

@@ -1,0 +1,26 @@
+div.home-page {
+  background-position: 0px -10px;
+  min-height: 640px;
+}
+
+h1.site-title {
+  	font-size: 2em;
+}
+
+h2.site-description {
+  	font-size: 1.6em;
+}
+
+div.navbar {
+	position: relative;
+	top: -55px;
+}
+
+.nav-menu li a {
+	font-size: 1.2em;
+}
+
+.aux-menu a {
+	font-size: 1em;
+	margin: 10px;
+}

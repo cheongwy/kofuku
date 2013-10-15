@@ -30,7 +30,7 @@ div.other-page {
 div.home-page {
 	background: url('images/kitchen_new_a2.jpg') top center repeat-x;
   background-size: 100%;  
-  background-position: 0px -60px;
+  background-position: 0px -45px;
   min-height: 768px;
 }
 
@@ -54,7 +54,7 @@ header.site-header .search-form {
 
 .nav-menu li a {
 	color: #FFC000;
-	font-size: 26px;
+	font-size: 1.6em;
 	border-bottom: solid 3px;
 	padding: 5px;
 	margin: 10px;
@@ -70,11 +70,12 @@ header.site-header .search-form {
 }
 	
 div.navbar {
-  background: none; 	
+  background: none;
+  padding-left: 35px; 	
 }
 
 h1.site-title {
-  font-size: 56px;
+  font-size: 3.6em;
   font-family: 'Sofia', cursive, "Source Sans Pro", Helvetica, sans-serif;
 	font-weight: normal;
 	padding: 38px 0 10px;
@@ -82,8 +83,8 @@ h1.site-title {
 }
 
 h2.site-description {
-  font-size: 48px;
-	font-family: "Source Sans Pro", Helvetica, sans-serif, "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+  font-size: 3em;
+	font-family: "Source Sans Pro", Helvetica, sans-serif, "KaiTi", "??", STKaiti, "????", serif;
 	text-shadow: 0px 1px 0px #FFC;
 }
 
@@ -99,7 +100,7 @@ h2.site-description {
 }
 
 .tagline > .chinese-text {
-  font-family: "Source Sans Pro", Helvetica, sans-serif, "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif, "KaiTi", "??", STKaiti, "????", serif;
   font-size: 22px;	
 }
 
@@ -139,7 +140,11 @@ h2.site-description {
   font-size: 28px;
 }
 
-.entry-content h5 {
+.entry-content h4 {
+	color: #FFC000;
+}
+
+.entry-content h5, .entry-content h6 {
 	color: #FFC;
 }
 
@@ -163,7 +168,7 @@ h2.site-description {
 }
 
 .aux-menu a {
-	font-size: 22px;
+	font-size: 1.4em;
 	color: #FFC000;
 	text-decoration: none;	
 	margin: 15px;
@@ -172,6 +177,15 @@ h2.site-description {
 .aux-menu a:hover {
   border-bottom: solid 2px;
   color: #FFC;
+}
+
+table {
+	border: 1px solid #ffc;
+	border-collapse: separate;
+}
+
+td {
+	padding: 2px 0px 2px 5px;
 }
 
 footer.site-footer  {  
@@ -209,4 +223,8 @@ footer.site-footer  {
 input[type="submit"] {
 	border-radius: 12px;
 	padding: 9px 18px;
+}
+
+.visual-form-builder li div label, .visual-form-builder li span label {
+	font-size: 100%;
 }
