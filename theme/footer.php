@@ -16,7 +16,7 @@
       <?php get_sidebar( 'main' ); ?>
 
       <div class="copyright">
-      INFO@KOFUKU.SG &nbsp;&nbsp; © 2013 KOFUKU
+      ORDERS@KOFUKU.SG &nbsp;&nbsp; © 2013 KOFUKUMONO
       </div>
       <div class="site-info">
         <?php do_action( 'twentythirteen_credits' ); ?>
