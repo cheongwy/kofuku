@@ -45,11 +45,4 @@
 
     </header><!-- #masthead -->
 
-    <?php if ( is_front_page() ) { ?>
-      <div class="tagline">
-        <p>Where blissful moments begin...</p>
-        <p class="chinese-text">心的料理,与您分享。。。</p>
-      </div>
-    <?php } ?>     
-
     <div id="main" class="site-main">

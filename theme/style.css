@@ -16,19 +16,11 @@
 
 div.other-page {
 	color: #EEE; /* #4D4D4D; */
-	background: #b7ad70; /* Old browsers */
-	background: -moz-linear-gradient(top,  #b7ad70 0%, #c9c190 60%, #d5cea6 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7ad70), color-stop(60%,#c9c190), color-stop(100%,#d5cea6)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7ad70', endColorstr='#d5cea6',GradientType=0 ); /* IE6-9 */
-  background-image: url('images/wood.png');
+  	background-image: url('images/wood.png');
 }
 
 div.home-page {
-	background: url('images/kitchen_new_a2.jpg') top center repeat-x;
+	background: url('images/kitchen_new_a3.jpg') top center repeat-x;
   background-size: 100%;  
   background-position: 0px -45px;
   min-height: 768px;
@@ -86,26 +78,6 @@ h2.site-description {
   font-size: 3em;
 	font-family: "Source Sans Pro", Helvetica, sans-serif, "KaiTi", "??", STKaiti, "????", serif;
 	text-shadow: 0px 1px 0px #FFC;
-}
-
-.tagline {
-	position: absolute;
-	top: 66%;
-	right: 25%;
-	font-size: 22px;
-	color: #FFC;
-	font-family: 'Sofia', cursive, "Source Sans Pro", Helvetica, sans-serif;
-	font-weight: bold;
-	word-spacing: 3px;
-}
-
-.tagline > .chinese-text {
-  font-family: "Source Sans Pro", Helvetica, sans-serif, "KaiTi", "??", STKaiti, "????", serif;
-  font-size: 22px;	
-}
-
-.tagline p {
-	margin: 0;
 }
 
 .site-main {
@@ -227,4 +199,93 @@ input[type="submit"] {
 
 .visual-form-builder li div label, .visual-form-builder li span label {
 	font-size: 100%;
+}
+
+.testimonials {
+	min-height: 720px;	
+}
+
+.t-image {
+	text-align: center;
+	width: 100%;
+	margin: auto;	
+}
+
+.blurp {
+	position: absolute; 
+	word-spacing: 2px;	
+}
+
+.blurp p {
+	margin-top: 8px;
+	color: #FFC;
+  	font-family: 'Sofia', cursive, "Source Sans Pro", Helvetica, sans-serif;
+  	font-weight: bold;	
+}
+
+.t0 {
+	margin-top: 40px;
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-webkit-transform:rotate(2deg);	
+	width: 98%;		
+}
+
+.t1 {
+	width: 200px;
+	top: -200px;
+	left: 100px;
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-webkit-transform:rotate(7deg);	
+}
+
+.t2 {
+	width: 300px;
+	top: -50px;
+	right: 50px;
+	transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg); /* IE 9 */
+	-webkit-transform:rotate(-3deg);		
+}
+
+.t3 {
+	width: 330px;
+	top: 250px;
+	left: 35px;
+	transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg); /* IE 9 */
+	-webkit-transform:rotate(-10deg);		
+}
+
+.t4 {
+	width: 350px;
+	top: 300px;
+	right: 20px;
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-webkit-transform:rotate(2deg);		
+}
+
+.t5 {
+	width: 300px;
+	top: -150px;
+	right: 100px;
+	transform:rotate(1deg);
+	-ms-transform:rotate(1deg); /* IE 9 */
+	-webkit-transform:rotate(1deg);		
+}
+
+.t6 {
+	width: 70%;
+	top: 550px;
+	left: 350px;
+	transform:rotate(-1deg);
+	-ms-transform:rotate(-1deg); /* IE 9 */
+	-webkit-transform:rotate(-1deg);		
+}
+
+.kofuku {
+	color: #FFC;
+	font-weight: bold;	
 }
