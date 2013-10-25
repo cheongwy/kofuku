@@ -1,6 +1,9 @@
 div.home-page {
   background-position: 0px -10px;
-  min-height: 640px;
+}
+
+.site-main {
+  min-height: 300px;	
 }
 
 h1.site-title {
