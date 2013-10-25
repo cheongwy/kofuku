@@ -289,3 +289,9 @@ input[type="submit"] {
 	color: #FFC;
 	font-weight: bold;	
 }
+
+#thank_you_bubble {
+	width: 50%;
+	position: relative;
+	left: -100px;
+}
