@@ -27,3 +27,25 @@ div.navbar {
 	font-size: 1em;
 	margin: 10px;
 }
+
+.blurp {
+	font-size: 75%;		
+}
+
+.testimonials {
+	min-height: 620px;	
+}
+
+.t0 {
+	margin-top: -2%;
+}
+
+.t6 {
+	width: 30%;
+	top: 50%;
+	left: 35%;
+	transform:rotate(-1deg);
+	-ms-transform:rotate(-1deg); /* IE 9 */
+	-webkit-transform:rotate(-1deg);		
+}
+

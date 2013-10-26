@@ -206,79 +206,82 @@ input[type="submit"] {
 
 .t-image {
 	text-align: center;
-	width: 100%;
+	width: 98%;
 	margin: auto;	
 }
 
 .blurp {
 	position: absolute; 
-	word-spacing: 2px;	
+	word-spacing: 2px;
 }
 
 .blurp p {
 	margin-top: 8px;
 	color: #FFC;
   	font-family: 'Sofia', cursive, "Source Sans Pro", Helvetica, sans-serif;
-  	font-weight: bold;	
+  	font-weight: bold;
 }
 
 .t0 {
-	margin-top: 40px;
+	margin-top: 4%;
 	transform:rotate(2deg);
 	-ms-transform:rotate(2deg); /* IE 9 */
-	-webkit-transform:rotate(2deg);	
-	width: 98%;		
+	-webkit-transform:rotate(2deg);
+}
+
+.t0 img {
+	width: 35%;	
 }
 
 .t1 {
-	width: 200px;
-	top: -200px;
-	left: 100px;
+	width: 20%;
+	top: -15%;
+	left: 7%;
 	transform:rotate(7deg);
 	-ms-transform:rotate(7deg); /* IE 9 */
 	-webkit-transform:rotate(7deg);	
 }
 
 .t2 {
-	width: 300px;
-	top: -50px;
-	right: 50px;
+	width: 25%;
+	top: -5%;
+	right: 3%;
 	transform:rotate(-3deg);
 	-ms-transform:rotate(-3deg); /* IE 9 */
 	-webkit-transform:rotate(-3deg);		
 }
 
 .t3 {
-	width: 330px;
-	top: 250px;
-	left: 35px;
+	width: 26%;
+	top: 35%;
+	left: 5%;
 	transform:rotate(-10deg);
 	-ms-transform:rotate(-10deg); /* IE 9 */
 	-webkit-transform:rotate(-10deg);		
 }
 
 .t4 {
-	width: 350px;
-	top: 300px;
-	right: 20px;
+	width: 27%;
+	top: 40%;
+	right: 2%;
 	transform:rotate(2deg);
 	-ms-transform:rotate(2deg); /* IE 9 */
 	-webkit-transform:rotate(2deg);		
 }
 
 .t5 {
-	width: 300px;
-	top: -150px;
-	right: 100px;
+	width: 25%;
+	top: -23%;
+	right: 7%;
 	transform:rotate(1deg);
 	-ms-transform:rotate(1deg); /* IE 9 */
 	-webkit-transform:rotate(1deg);		
 }
 
 .t6 {
-	width: 70%;
-	top: 550px;
-	left: 350px;
+	width: 60%;
+	top: 73%;
+	left: 32%;
 	transform:rotate(-1deg);
 	-ms-transform:rotate(-1deg); /* IE 9 */
 	-webkit-transform:rotate(-1deg);		
