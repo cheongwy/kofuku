@@ -1,0 +1,62 @@
+body {
+	color: #EEE; /* #4D4D4D; */
+  	background-image: url('images/wood.png');
+}
+
+div.home-page {
+	background: transparent;
+}
+
+.site-main {
+	min-height: 55px;
+}
+
+h1.site-title {
+  	font-size: 2em;
+}
+
+h2.site-description {
+  	font-size: 1.5em;
+}
+
+div.navbar {
+  	top: -90px;
+}
+
+div.aux-menu {
+  	position: relative;
+}
+
+.menu-toggle {
+	display: none;	
+}
+
+ul.nav-menu,
+div.nav-menu > ul {
+	display: block;
+}
+
+div.home-page footer.site-footer  {  
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+div.blurp {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 0 15px;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg);
+	font-size: 1em;		
+}
+
+.t0 img {
+	width: 85%;	
+}

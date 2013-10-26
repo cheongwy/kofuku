@@ -20,6 +20,7 @@
   <![endif]-->
   <?php wp_head(); ?>
   <link rel="stylesheet" media="(max-width: 960px)" href="<?php echo get_stylesheet_directory_uri(); ?>/tablet.css" />
+  <link rel="stylesheet" media="screen and (max-device-width : 568px)" href="<?php echo get_stylesheet_directory_uri(); ?>/mobile.css" />
   <meta property="og:title" content="Kofuku Corner" />
   <meta property="og:type" content="blog" /> 
   <meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/images/kitchen_new_a3.jpg" /> 
