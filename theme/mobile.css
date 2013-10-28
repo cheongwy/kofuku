@@ -20,11 +20,12 @@ h2.site-description {
 }
 
 div.navbar {
-  	top: -90px;
+  	top: -20px;
 }
 
 div.aux-menu {
   	position: relative;
+  	top: 70px;
 }
 
 .menu-toggle {
@@ -42,6 +43,28 @@ div.home-page footer.site-footer  {
   width: 100%;
   margin: auto;
   text-align: center;
+}
+
+.tag-line {
+	text-align: center;
+  	width: 100%;
+  	margin: auto;	
+	display: block;
+	color: #FFC;
+  	position: relative;
+  	top: -130px;
+}
+
+.tag-line p {
+  	padding: 0px;
+  	margin: 0px;
+    font-family: 'Sofia', cursive, "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1.1em;  	
+}
+
+p.tag-line-chinese {
+	font-family: "Source Sans Pro", Helvetica, sans-serif, "KaiTi", "??", STKaiti, "????", serif;	
+	font-size: 0.9em;
 }
 
 div.blurp {

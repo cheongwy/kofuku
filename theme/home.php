@@ -18,6 +18,10 @@ get_header(); ?>
 
   <div id="primary" class="content-area">
     <div id="content" class="site-content" role="main">
+    	<div class="tag-line">
+    		<p>Where blissful moments begin ...</p>
+    		<p class="tag-line-chinese">心的料理，与您分享。。。</p>
+    	</div>
     </div><!-- #content -->
   </div><!-- #primary -->
 

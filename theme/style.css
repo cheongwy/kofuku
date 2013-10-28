@@ -176,6 +176,10 @@ footer.site-footer  {
 	padding: 15px;
 }
 
+.tag-line {
+	display: none;
+}
+
 .visual-form-builder fieldset {
 	background-color: transparent;
 	border: none;
